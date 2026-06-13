@@ -8,6 +8,6 @@ import numpy as np
 st.write('# 2. DataFrame 표시하기') 
 df = pd.DataFrame({
     '이름': ['이등대', '김도형', '최정훈'],
-    '나이': [20, 35, "???"]
+    '나이': [21, 35, "???"]
 }) 
 st.dataframe(df)
