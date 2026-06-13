@@ -7,7 +7,7 @@ import numpy as np
 # 표(DataFrame) 표시하기
 st.write('# 2. DataFrame 표시하기') 
 df = pd.DataFrame({
-    '이름': ['홍길동', '이순신', '강감찬'],
-    '나이': [20, 45, 35]
+    '이름': ['이등대', '김도형', '최정훈'],
+    '나이': [20, 35, "???"]
 }) 
 st.dataframe(df)
